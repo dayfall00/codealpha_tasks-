@@ -1,0 +1,97 @@
+# CodeAlpha Crypto Locking Smart Contract
+
+A Solidity-based smart contract developed as part of the CodeAlpha Blockchain Development Internship.
+
+---
+
+## 📌 Project Overview
+
+This project implements a crypto locking mechanism where users can deposit Ether along with a lock duration.
+
+Funds remain locked until the specified unlock time is reached.
+
+The contract demonstrates secure fund handling, time-based restrictions, and Ether withdrawal functionality using Solidity.
+
+---
+
+## 🚀 Features
+
+- Deposit Ether into the smart contract
+- Lock funds for a specified duration
+- Prevent early withdrawals
+- Withdraw Ether after unlock time
+- Check remaining lock duration
+- View deposited balance
+
+---
+
+## 🛠 Technologies Used
+
+- Solidity ^0.8.20
+- Remix IDE
+- Ethereum Virtual Machine (EVM)
+
+---
+
+## ▶️ How It Works
+
+1. User deposits Ether into the contract
+2. User specifies lock duration
+3. Contract stores:
+   - deposited amount
+   - unlock timestamp
+4. Withdrawal is blocked until lock time expires
+5. User can withdraw funds after unlock period
+
+---
+
+## ✅ Functionalities Implemented
+
+- Payable deposit function
+- Ether transfer handling
+- Time-lock validation using `block.timestamp`
+- Secure withdrawal mechanism
+- Balance tracking using mappings
+- Remaining lock time calculation
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+- Payable smart contract functions
+- Ether handling in Solidity
+- Time-based smart contract logic
+- Secure withdrawal patterns
+- Mapping usage for user storage
+- Smart contract deployment and testing
+
+---
+
+## 🧪 Testing
+
+The contract was successfully:
+- Compiled
+- Deployed
+- Tested on Remix VM
+
+Tested scenarios include:
+- Successful deposits
+- Early withdrawal rejection
+- Successful withdrawal after lock expiration
+- Balance verification
+
+---
+
+## 👨‍💻 Author
+
+**Aditya Bhardwaj**
+
+Blockchain Development Internship — CodeAlpha
+
+---
+
+## 🔗 Internship Domain
+
+Blockchain Development Internship at CodeAlpha
